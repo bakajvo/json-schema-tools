@@ -1,4 +1,4 @@
-import { calc } from '@jsonschema-tools/ast'
+import { calc } from '@json-schema-tools/json-schema-tree'
 import React from 'react'
 
 const App: React.FC = () => {

@@ -1,13 +1,13 @@
 {
-  "name": "@jsonschema-tools/root",
+  "name": "@json-schema-tools/root",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
+    "prepare": "husky install",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
-    "prepare": "husky install",
     "lint": "npx eslint"
   },
   "lint-staged": {

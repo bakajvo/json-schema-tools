@@ -1,5 +1,5 @@
 {
-  "name": "@jsonschema-tools/demo",
+  "name": "@json-schema-tools/demo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +11,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@jsonschema-tools/ast": "*"
+    "@json-schema-tools/json-schema-tree": "*"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
